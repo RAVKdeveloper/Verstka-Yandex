@@ -1,0 +1,40 @@
+
+/* Import reset css */
+
+@import './reset.css';
+
+
+/* Import Media respons  */
+
+@import './adaptive/mediares.css'; 
+
+/* Import header */
+
+@import './header/header.css';
+
+
+/* Import main */
+
+@import './main/sneakerscard.css';
+
+/* Import Footer  */
+
+@import './footer/footer.css';
+
+
+/* Vars */
+
+@import './vars.css';
+
+
+html,body{
+    width: 100%;
+    font-family: 'Anonymous Pro', monospace;
+    height: 100%;
+}
+
+img{
+    user-select: none;
+}
+
+

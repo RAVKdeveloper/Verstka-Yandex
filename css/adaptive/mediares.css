@@ -1,0 +1,164 @@
+@media screen and (max-width: 1200px) {
+     .header__container{
+        max-width: var(--container1200) !important;
+     }
+     .container__main{
+        max-width: var(--container1200) !important;
+     }
+       .snickers__cards{
+        width: 270px !important;
+       }
+       .card__image{
+        width: 270px !important;
+       }
+     .footer__container{
+        width: var(--container1200) !important;
+     }
+}
+
+/*  Max-width 900px!!!  */
+
+@media screen and (max-width: 900px) {
+    .header__container{
+        max-width: var(--containertable) !important;
+     }
+     .container__main{
+        max-width: var(--containertable) !important;
+     }
+       .snickers__cards{
+        width: 220px !important;
+       }
+       .card__image{
+        width: 220px !important;
+       }
+     .footer__container{
+        width: var(--containertable) !important;
+     }
+     .header__nav ul a{
+        font-size: 16px !important;
+     }
+     .logo__header{
+        width: 180px;
+     }
+     .title__main{
+        font-size: 38px !important;
+     }
+     .title__card{
+        font-size: 20px !important;
+     }
+     .description__card{
+        font-size: 16px !important;
+     }
+     .footer__nav ul a{
+      font-size: 16px !important;
+     }
+     .footer__logo{
+      width: 200px !important;
+     }
+}
+
+/*  Max-width 750px  */
+
+@media screen and (max-width: 750px) {
+   .header__container{
+       max-width: var(--container750) !important;
+    }
+    .container__main{
+       max-width: var(--container750) !important;
+    }
+      .snickers__cards{
+       width: 160px !important;
+      }
+      .info__card__column{
+           padding: 17px 11px !important;
+      }
+      .card__image{
+       width: 160px !important;
+      }
+    .footer__container{
+       width: var(--container750) !important;
+    }
+    .header__nav ul a{
+       font-size: 14px !important;
+    }
+    .logo__header{
+       width: 140px;
+    }
+    .title__main{
+       font-size: 28px !important;
+    }
+    .title__card{
+       font-size: 17px !important;
+    }
+    .description__card{
+       font-size: 12px !important;
+    }
+    .footer__nav ul a{
+     font-size: 14px !important;
+    }
+    .footer__logo{
+     width: 160px !important;
+    }
+    .footer__footer{
+      font-size: 12px !important;
+    }
+}
+
+
+/* Mobile  */
+
+@media screen and (max-width: 550px) {
+   .header__container{
+       max-width: var(--containermobile) !important;
+       flex-direction: column !important;
+       gap: 20px !important;
+    }
+    .container__main{
+       max-width: var(--containermobile) !important;
+    }
+    .snikers__main__wrapper{
+      flex-direction: column !important;
+      margin: 0 auto !important;
+      gap: 20px;
+    }
+      .snickers__cards{
+       width: 200px !important;
+      }
+      .info__card__column{
+           padding: 15px 13px !important;
+      }
+      .card__image{
+       width: 200px !important;
+      }
+    .footer__container{
+       width: var(--containermobile) !important;
+    }
+    .footer__head{
+      flex-direction: column !important;
+      gap: 20px !important;
+    }
+    .header__nav ul a{
+       font-size: 14px !important;
+    }
+    .logo__header{
+       width: 140px;
+    }
+    .title__main{
+       font-size: 22px !important;
+    }
+    .title__card{
+       font-size: 17px !important;
+    }
+    .description__card{
+       font-size: 12px !important;
+    }
+    .footer__nav ul a{
+     font-size: 14px !important;
+    }
+    .footer__logo{
+     width: 160px !important;
+    }
+    .footer__footer{
+      font-size: 10px !important;
+    }
+}

@@ -1,0 +1,23 @@
+:root{
+    --back: #ffffff;
+    --maincolor: rgba(241, 241, 241, 1);
+    --footerback: rgba(18, 23, 35, 1);
+    --text: rgba(18, 23, 35, 1);
+    --textfooter: rgba(255, 255, 255, 1);
+    --textheader: rgba(0, 0, 0, 1); 
+    --container: 1191px;
+    --hiddencolor: rgba(161, 166, 180, 1);
+
+
+    /* Adaptive vars  */
+  
+    --container1200: 870px;
+    --containertable: 670px;
+    --container750: 550px;
+    --containermobile: 250px;
+
+    /* Big card */
+
+    --container-big: 1140px;
+    --color-text-bigcard: #121723;
+}

@@ -1,0 +1,58 @@
+header{
+    width: 100%;
+    background: var(--back);
+}
+
+/* Animation header logo */
+
+.logo__header{
+    animation-name: logo__visible;
+    animation-duration: 1s;
+}
+
+@keyframes logo__visible{
+ 
+    0%{
+        transform: translateX(-100%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+/* Container */
+
+.header__container{
+    width: var(--container);
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    background-color: transparent;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+/* Navigation  */
+
+
+.header__nav ul{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+
+.header__nav ul a{
+    color: var(--textheader);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,66 @@
+main{
+    width: 100%;
+    background-color: var(--maincolor);
+    padding-top: 25px;
+}
+
+/*  Container */
+
+.container__main{
+    max-width: var(--container);
+    padding: 0 15px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+/* Title */
+
+.title__main{
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+    font-size: 48px;
+}
+
+/* Cards */
+
+
+.snikers__main__wrapper{
+    padding-top: 25px;
+
+   display: flex;                       
+   justify-content: space-between;   
+   align-items: flex-start;             
+   column-gap: 25px;
+}
+
+.snickers__cards{
+    width: 372px;
+    background: var(--back);
+    border-radius: 12px;
+    cursor: pointer;
+   transition: transform .6s ease;
+}
+
+.snickers__cards:hover{
+   transform: translate(-7px, -7px);
+   transition: transform .6s ease;
+}
+
+.info__card__column{
+    padding: 32px 24px;
+    color: var(--text);
+
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.title__card{
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.description__card{
+    font-weight: 400;
+    font-size: 20px;
+}
