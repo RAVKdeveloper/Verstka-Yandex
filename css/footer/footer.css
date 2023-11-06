@@ -49,6 +49,12 @@ footer{
     font-size: 20px;
     line-height: 20px;
     cursor: pointer;
+    transition: color .5s ease;
+}
+
+.footer__nav ul a:hover{
+    color: var(--color-hover);
+    transition: color .5s ease;
 }
 
 /*  Footer Footer  */

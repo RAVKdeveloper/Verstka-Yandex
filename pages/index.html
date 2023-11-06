@@ -41,43 +41,52 @@
     <div class="container__main">
     <h2 class="title__main">Коллекция. {октябрь:2023}</h2>  
     <div class="snikers__main__wrapper">
-         <a href="dunkBig.html"><div class="sneaker snickers__cards">
-            <img src="./../image/sneakers img//image 3nikedunk.svg" alt="nikedunk" class="card__image">
+         <a href="newBalanceBig.html"><div class="sneaker snickers__cards">
+            <img src="./../image/sneakers img/image 3newbalance.svg" alt="newbalance" class="card__image">
+            <div class="info__card__column">
+                <h4 class="title__card">New Balance C-ms574</h4>
+                <p class="description__card">Salehe Bembury Shark Skin</p>
+            </div>
+         </div></a>
+         <a href="dunkBig.html"><div class=" sneaker snickers__cards">
+            <img src="./../image/sneakers img/image 3nikedunk.svg" alt="nikedank" class="card__image">
             <div class="info__card__column">
                 <h4 class="title__card">Nike Dunk Low SP</h4>
                 <p class="description__card">Nike Dunk Low Orange Blaze Syracuse</p>
             </div>
          </div></a>
-         <a href="#"><div class=" sneaker snickers__cards">
-            <img src="./../image/sneakers img/image 3addidaseazy.svg" alt="addidaseazy" class="card__image">
-            <div class="info__card__column">
-                <h4 class="title__card">adidas Yeezy Foam RNNR</h4>
-                <p class="description__card">Comme des Garcons PLAY Black</p>
-            </div>
-         </div></a>
-         <a href="#"><div class=" sneaker snickers__cards">
+         <a href="converseBig.html"><div class=" sneaker snickers__cards">
             <img src="./../image/sneakers img/sneaker__imgconverse.svg" alt="converse" class="card__image">
             <div class="info__card__column">
                 <h4 class="title__card">Converse Chuck 70 High</h4>
-                <p class="description__card">Core Black</p>
+                <p class="description__card">Comme des Garcons PLAY Black</p>
             </div>
          </div></a>
         </div>
         <div class="snikers__main__wrapper">
             <div class="sneaker snickers__cards">
-               <img src="./../image/sneakers img/image 3nikeair.svg" alt="nikeair" class="card__image">
+               <img src="./../image/sneakers img/image 3addidaseazy.svg" alt="addidaseazy" class="card__image">
+               <div class="info__card__column">
+                   <h4 class="title__card">adidas Yeezy Foam RNNR</h4>
+                   <p class="description__card">Stone Sage</p>
+               </div>
+            </div>
+            <div class=" sneaker snickers__cards">
+               <img src="./../image/sneakers img/image 3nikeair.svg" alt="nikeairmax" class="card__image">
                <div class="info__card__column">
                    <h4 class="title__card">Nike Air Max Plus</h4>
                    <p class="description__card">Patta FC Barcelona Culers del Món</p>
                </div>
             </div>
-            <div class=" sneaker snickers__cards">
-               <img src="./../image/sneakers img/image 3jordanhight.png" alt="jordanhight" class="card__image">
+            <div class="sneaker snickers__cards">
+               <img src="./../image/sneakers img/image 3jordanhight.png" alt="jordanhigh" class="card__image">
                <div class="info__card__column">
                    <h4 class="title__card">Jordan 1 Retro High OG SP</h4>
                    <p class="description__card">Union LA Bephies Beauty Supply Summer of ‘96</p>
                </div>
             </div>
+           </div>
+           <div class="snikers__main__wrapper">
             <div class="sneaker snickers__cards">
                <img src="./../image/sneakers img/image 3adidascampus.svg" alt="addidascampus" class="card__image">
                <div class="info__card__column">
@@ -85,20 +94,11 @@
                    <p class="description__card">Core Black</p>
                </div>
             </div>
-           </div>
-           <div class="snikers__main__wrapper">
-            <div class="sneaker snickers__cards">
+            <div class=" sneaker snickers__cards">
                <img src="./../image/sneakers img/image 3ugg.svg" alt="ugg" class="card__image">
                <div class="info__card__column">
                    <h4 class="title__card">UGG Classic Ultra Mini Boot</h4>
                    <p class="description__card">Chestnut (Women's)</p>
-               </div>
-            </div>
-            <div class=" sneaker snickers__cards">
-               <img src="./../image/sneakers img/image 3newbalance.svg" alt="newbalance" class="card__image">
-               <div class="info__card__column">
-                   <h4 class="title__card">New Balance C-ms574f</h4>
-                   <p class="description__card">Salehe Bembury Shark Skin</p>
                </div>
             </div>
             <div class="sneaker snickers__cards">
@@ -138,5 +138,25 @@
     </div>
   </footer>
 
+<!-- Решил сделать немного интерактива :) -->
+
+  <section class="popup__body">
+    <div class="popup">
+        <img src="./../image/popup/Untitled_ArtworkpopupBack.png" alt="popupimg" class="popup__img">
+        <div class="welcome__popup">
+            <span>Приветствуем вас в нашем магазине кроссовок!!!</span>
+            <span>Для заказа обратитесь к <span class="name__popup">...</span></span>
+        </div>
+        <div id="form__popup">
+            <input type="text" class="name__input__popup" placeholder="Ваше имя">
+            <button class="btn__popup">Подтвердить</button>
+        </div>
+             <div data-close="close" class="close__popup">
+                <img src="./../image/popup/close icon.png" alt="close">
+             </div>
+    </div>
+  </section>
+
+<script defer src="./../js/script.js"></script>
 </body>
 </html>

@@ -22,6 +22,10 @@
 @import './footer/footer.css';
 
 
+/* Import Popup */
+
+@import './popup/popup.css';
+
 /* Vars */
 
 @import './vars.css';

@@ -41,6 +41,11 @@ main{
    transition: transform .6s ease;
 }
 
+.card__image{
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
 .snickers__cards:hover{
    transform: translate(-7px, -7px);
    transition: transform .6s ease;

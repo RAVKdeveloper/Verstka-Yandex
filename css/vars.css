@@ -18,6 +18,15 @@
 
     /* Big card */
 
-    --container-big: 1140px;
+    --container-big: 1170px;
     --color-text-bigcard: #121723;
+
+    /* Hover color */
+
+    --color-hover: rgb(241, 74, 74);
+    
+    /* Popup */
+
+    --popup-back: rgba(181, 168, 168, 0.4);
+
 }

@@ -55,4 +55,10 @@ header{
     font-size: 20px;
     line-height: 20px;
     cursor: pointer;
+    transition: color .5s ease;
+}
+
+.header__nav ul a:hover{
+    color: var(--color-hover);
+    transition: color .5s ease;
 }

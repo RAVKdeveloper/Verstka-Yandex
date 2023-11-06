@@ -1,0 +1,28 @@
+
+/* Import reset */
+
+@import './../reset.css';
+
+/* Import Header */
+
+@import './../header/header.css';
+
+/* Import footer */
+
+@import './../footer/footer.css';
+
+/* Import vars */
+
+@import './../vars.css';
+
+/* Import Adaptive */
+
+@import './../adaptive/mediares.css';
+
+/* Import content */
+
+@import './content.css';
+
+html,body{
+    font-family:  'Anonymous Pro', monospace; 
+}
