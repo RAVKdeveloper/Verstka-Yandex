@@ -23,6 +23,10 @@
 
 @import './content.css';
 
+/* Import recomendation sneakers */
+
+@import './top.css';
+
 html,body{
     font-family:  'Anonymous Pro', monospace; 
 }

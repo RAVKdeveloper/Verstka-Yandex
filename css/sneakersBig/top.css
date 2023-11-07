@@ -1,0 +1,88 @@
+.follow__sneaker{
+    padding-top: 48px;
+}
+
+/* Content */
+
+.title__follow__sneaker{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--color-text-bigcard);
+}
+
+/* Cards */
+
+.wrapper__follow__sneaker__content{
+    padding-top: 32px;
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+/* Card */
+
+.card__follow__sneaker__body{
+    background: var(--back);
+    width: 364px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.card__follow__sneaker__body:hover{
+    transform: translate(-4px, -4px);
+    transition: all .5s ease;
+}
+
+.img__card__follow__sneaker{
+    width: 100%;
+    height: 254px;
+    border-top-left-radius: 12px;
+   border-top-right-radius: 12px;
+}
+
+.info__card__follow__column{
+   padding: 32px 24px;
+   border-bottom-left-radius: 12px;
+   border-bottom-right-radius: 12px;
+   color: var(--color-text-bigcard);
+   width: 100%;
+}
+.name__sneaker__follow__card{
+   font-size: 26px;
+   font-weight: 700;
+} 
+.desc__sneaker__follow__card{
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 316px;
+    padding-top: 12px;
+}
+
+
+/* Adaptive */
+
+@media  screen  and (max-width: 900px){
+    .card__follow__sneaker__body{
+        width: 270px;
+    }
+    .img__card__follow__sneaker{
+        height: 200px;
+    }
+    .title__follow__sneaker{
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width:550px){
+    .wrapper__follow__sneaker__content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card__follow__sneaker__body{
+        width: 343px;
+    }
+    .img__card__follow__sneaker{
+        height: 254px;
+    }
+}
