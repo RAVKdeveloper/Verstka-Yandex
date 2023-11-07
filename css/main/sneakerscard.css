@@ -69,3 +69,21 @@ main{
     font-weight: 400;
     font-size: 20px;
 }
+
+/* Animation card */
+
+.sneaker{
+    animation-name: sneakerDowland;
+    animation-duration: 1s;
+}
+
+@keyframes sneakerDowland{
+    0%{
+        transform: translateY(-10%);
+        opacity: 0.5;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
