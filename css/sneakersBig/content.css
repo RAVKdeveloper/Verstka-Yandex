@@ -179,15 +179,13 @@
     .psevdoTable__cardBig__body{
         width: 100%;
     }
-    .title___psevdoTable{
-        text-align: center;
-    }
+
 
     /* Mobile */
 
     @media screen and (max-width: 450px) {
         .cardBig__image{
-            height: 250px;
+            height: 172px;
         }
     }
 }

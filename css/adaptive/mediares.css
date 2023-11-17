@@ -113,8 +113,13 @@
        flex-direction: column !important;
        gap: 20px !important;
     }
+    .logo__header{
+      width: 215px !important;
+      height: 64px !important;
+    }
     .container__main{
        max-width: var(--containermobile) !important;
+       margin: 0  0 !important;
     }
     .snikers__main__wrapper{
       flex-direction: column !important;
@@ -122,13 +127,13 @@
       gap: 20px;
     }
       .snickers__cards{
-       width: 200px !important;
+       width: 343px !important;
       }
       .info__card__column{
-           padding: 15px 13px !important;
+           padding: 32px 24px !important;
       }
       .card__image{
-       width: 200px !important;
+       width: 100% !important;
       }
     .footer__container{
        width: var(--containermobile) !important;
@@ -140,23 +145,21 @@
     .header__nav ul a{
        font-size: 14px !important;
     }
-    .logo__header{
-       width: 140px;
-    }
     .title__main{
-       font-size: 22px !important;
+       font-size: 32px !important;
     }
     .title__card{
-       font-size: 17px !important;
+       font-size: 26px !important;
     }
     .description__card{
-       font-size: 12px !important;
+       font-size: 20px !important;
     }
     .footer__nav ul a{
      font-size: 14px !important;
     }
     .footer__logo{
-     width: 160px !important;
+     width: 300px !important;
+     height: 22px !important;
     }
     .footer__footer{
       font-size: 10px !important;
